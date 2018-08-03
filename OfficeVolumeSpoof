@@ -20,6 +20,7 @@ dir "C:\progra~1\microsoft office\office16"
 cd "c:\progra~1\microsoft office\office16"
 cscript //H:cscript
 cscript ospp.vbs /dstatus
+cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 
 
 
 cscript ospp.vbs /dinstid
