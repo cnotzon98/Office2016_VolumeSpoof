@@ -1,2 +1,3 @@
 # techg98
-Chris Notzon
+
+collected info...
