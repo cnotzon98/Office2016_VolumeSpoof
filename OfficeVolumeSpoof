@@ -1,0 +1,27 @@
+REM uses truncated DOS file listing
+
+dir "c:\progra~2\microsoft office\office16"
+cd "C:\progra~2\microsoft office\office16"
+cscript //H:CScript
+cscript ospp.vbs /dstatus
+
+echo default KMS WFG99 key here, insert valid MAK
+cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99 
+
+echo call the employee with the installation ID 1 (866) 432-3012 
+
+cscript ospp.vbs /dinstid
+start winword.exe
+
+echo for 32-bit install
+
+
+dir "C:\progra~1\microsoft office\office16"
+cd "c:\progra~1\microsoft office\office16"
+cscript //H:cscript
+cscript ospp.vbs /dstatus
+
+
+cscript ospp.vbs /dinstid
+start winword.exe
+
