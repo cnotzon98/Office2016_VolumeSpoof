@@ -1,3 +1,3 @@
-# techg98
+#
 
 collected info...
